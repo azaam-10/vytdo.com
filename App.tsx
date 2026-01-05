@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
-import Header from './components/Header';
-import ActionGrid from './components/ActionGrid';
-import MenuList from './components/MenuList';
-import BottomNav from './components/BottomNav';
-import TaskModal from './components/TaskModal';
+import Header from './components/Header.tsx';
+import ActionGrid from './components/ActionGrid.tsx';
+import MenuList from './components/MenuList.tsx';
+import BottomNav from './components/BottomNav.tsx';
+import TaskModal from './components/TaskModal.tsx';
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState('Mine');
